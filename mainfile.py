@@ -5,3 +5,5 @@ print("enter b")
 b = int(input())
 c = a + b
 print("a + b =", c)
+q = a * b
+print("a * b =", q)
