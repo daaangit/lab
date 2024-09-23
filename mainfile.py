@@ -20,7 +20,8 @@ print(m)
 
 
 k = (a - b)*(a + b)*q
-print(k)
+p = ((a - b)**2)*(a+b)*q
+print(k,p)
 
 
     
