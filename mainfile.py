@@ -14,6 +14,8 @@ for x in range(c, total):
     if x % 2 == 0: evenN.append(x)
 srednEv = sum(evenN) / len(evenN)
 
-m = total - srednEv
+m = (total - srednEv) % len(str(q))
+print(m)
+
 
     
