@@ -13,6 +13,7 @@ total = c + q; evenN = []; notEven = []
 for x in range(c, total):
     if x % 2 == 0: evenN.append(x)
 srednEv = sum(evenN) / len(evenN)
-print(srednEv)
+
+m = total - srednEv
 
     
